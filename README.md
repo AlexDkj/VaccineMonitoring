@@ -1,5 +1,7 @@
 # VaccineMonitoring
 
+VaccineMonitoring is command line program
+
 Compile command: make all
 
 Run: /vaccineMonitor -c recordfile -b bloomsize or
