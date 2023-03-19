@@ -1,0 +1,41 @@
+AM: 1115201300220
+Onomateponymo: Alexandros Ntyrkai
+
+
+Ta arxeia .c einai:
+  main.c, skip_list.c, hash.c, list.c, bloom_filter.c, funcs.c
+
+Ta arxeia .h einai:
+ structs.h, hash.h, skip_list.h, bloom_filter.h, funcs.h
+
+Compile:
+ make all
+
+Run:
+ /vaccineMonitor -c recordfile -b bloomsize or
+ /vaccineMonitor -b bloomsize -c recordfile
+
+Arxeizontas apo thn main synarthsh, ypologizetai to megethos toy hashtable dhladh
+to posous ious anaferei to arxeio eisodou. Sth synexeia, ftiaxnetai o dynamika
+desmeumenos pinakas pou krataei ta records, symfona me ton opoio tha prokyptei
+an mia eggrafh yparrxei hdh h an einai lathos h eggrafh. Epeita, eisagontai ta
+dedomema stis domes, opou an yparxei no yes eisagontai ta dedomena stis analoges
+domes, dhladh an einai yes h eggrafh eisagetai sto hash sth domh vaccinated list
+an oxi sth novaccinated list. Epishs, an pesoun sto hash dyo viruses sto idio
+index tou hashtable tote eisagoume sth lista overflow tou shgkekrimenou index
+kathe fora pou exoume overflow h lista ayxanetai. Epipleon xrhshmopeitai mia
+lista gia tis xwres kai ton plhthusmo toys kai mia gia ta stoixeia ton records
+xoris to id, ayto ylopoieitai dioti den theloume epikalipsi dedomenon kai sta
+skip lists theloume na anaferomaste sta idia dedomena xwris na desmeoume mnhmh pali.
+Auto, mas dinei thn dinatotita anexarthtos skip list ta dedomena me idia timh
+yparxoun mia fora. Akolouthos, arxikopoiountai oi domes, dinetai apo th grammh entolhs
+eisodos kai analoga me thn eisodo ekteleitai h katalhlh synarthsh. To bloom filter
+ylopoieitai os exhs, dhmiourgeitai enas pinakas o opoios arxikopoiei ta index me th timh
+mhden, sth synexeia ginontai hash ta records kai sth thesi pou peftei symfona me to apotelesma
+apo to hash pou ginetai treis fores gia kathe record. Meta, sthn klhsh gia anazhthsh enos
+record ama exei emboliastei ginetai hash treis fores kai ama ta index pou prokiptoun 
+exoun thn timh ena tote isos exei emvoliastei allios oxi. Gia tis skip lists, 
+sthn arxi kataskeuazetai to epipedo fylon poy periexei kai ta stoixeia toy ekastote 
+record, sth synexeia ftiaxnontai ta epipeda kai syndeoyme ta level me ta epomena
+gia na oloklhrothi h skip list. Epeita, ylopoiountai oi synarthseis pou xreiazontai
+skip lists.

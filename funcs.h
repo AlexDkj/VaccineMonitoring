@@ -1,0 +1,16 @@
+ht* hasinsert(ht* ,char* ,int );
+int hassearch(ht* ,char* );
+int findsizehash(ht* ,char* );
+hov* hashoverlist(hov* ,char* ,datarec ,dr* ,char* ,ht* ,hs ,int );
+ht* readfiledata(char* ,hs* ,ht* ,dr** ,int ,ht* ,datarec* ,int ,int );
+void vaccineStatusBloom(char* ,char* ,hs* ,ht* ,int ,int );
+void vaccineStatus(char* ,char* ,hs* ,ht* ,int ,char* );
+void vaccineStatusall(char* ,hs* ,ht* ,int ,char* );
+int addcategory(list* ,int );
+int populationsearch(hs ,char* ,char* ,ht* ,int ,char* );
+void populationstatus(hs* ,char* ,int ,ht* ,datarec ,char* ,char* ,int ,char* );
+void novaccineStatus(char* ,hs* ,ht* ,int );
+hs* removenonvaccinated(int ,char* ,hs* ,ht* ,int );
+hs* insertCitizenrecord(datarec ,hs* ,ht* ,dr* ,int ,char* ,ht* ,int ,char* );
+void freelists(list* );
+void freestructs(hs* ,int ,ht* );

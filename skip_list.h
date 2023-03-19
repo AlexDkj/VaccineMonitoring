@@ -1,0 +1,11 @@
+ht* listofcountries(ht* ,char* ,ht* );
+dr* recordassign(dr* ,datarec,dr* ,ht* );
+hov* hashoverinit(hov* ,ht* );
+list* listinit(list* );
+ht* hasinit(ht* );
+list* listinsert(list* ,int ,int ,list* ,datarec ,dr* ,ht* );
+hov* hashoverinsert(hov* ,datarec ,char* );
+list* skip_list(list* ,int );
+hov* skip_list_level_assign(hov* );
+int skip_list_search(list* ,int ,char* );
+list* remove_skip_list_data(list* ,int );
